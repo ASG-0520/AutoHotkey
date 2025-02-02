@@ -1,4 +1,4 @@
-SendMode Input
-SetWorkingDir %A_ScriptDir%
+SendMode("Input")
+SetWorkingDir(A_ScriptDir)
 
-CapsLock::Send, {Alt Down}{Shift Down}{Shift Up}{Alt Up}
+CapsLock::Send("{Alt Down}{Shift Down}{Shift Up}{Alt Up}")
